@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Use</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Audio Tag use to play audio</h1>
+    <audio class="hidden" autoplay muted src="media/audio/welcome.mp3"></audio>
+    <div>
+        <audio  style="border: 5px solid aqua; border-radius: 100px;" src="media/audio/goat.mp3" controls>Goat</audio>
+    </div>
+    <h1>Video tag is used to play video</h1>
+   <div>
+    <video width="450px" controls>
+        <source src="media/video/nature-video.mp4">
+    </video>
+   </div>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/xhG2AeyJXcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
