@@ -1,5 +1,5 @@
 
-nav ul{
+nav > ul{
     display: flex;
     gap: 20px;
 }
@@ -14,4 +14,17 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color:white;
+}
+nav > ul > li:hover >ul{ /* hovering done in third child */
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightsalmon;
+    padding: 0;
+}
+.dropdown li{
+    margin: 0;
+    padding: 0 ;
 }
