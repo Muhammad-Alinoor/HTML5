@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Tags</title>
     <style>
-        header{
+        header,article{
             text-align: center;
             background-color: pink;
             height: 100px;
@@ -26,6 +26,21 @@
             text-decoration: none;
             color: chocolate;
         }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: rgba(128, 128, 128, 0.452);
+        }
+        aside{
+            background-color: pink;
+            padding: 112px 20px 86px 100px;
+
+        }
+        .out{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -40,6 +55,25 @@
                 <li> <a href="#">About</a></li>
             </ul>
     </header>
+    <h2 class="out">Main tag</h2>
+    <main>
+        <section class="container">
+            <h2>Header tag</h2>
+            <header>
+                <h1>Header Part of main </h1>
+            </header>
+            <h2>Article tag</h2>
+            <article>
+                <h1>Write your post inside this article tag</h1>
+            </article>
+        </section>
+        
+        <aside>
+            
+            <h2>Aside tag</h2>
+            <h2>Side Bar</h2>
+        </aside>
+    </main>
 </body>
 
 </html>
